@@ -1,9 +1,9 @@
 
 def fibonacci(n):  # 0, 1, 1, 2, 3, 5, 8, 13
     """
-    This function gets the fibonacci series index according to the entered index
-    :n: index
-    :return: int
+    This function gets the fibonacci series index according to the entered index.
+        :param n: index
+        :return: int
     """
     if n <= 1:
         return n
@@ -14,8 +14,8 @@ def fibonacci(n):  # 0, 1, 1, 2, 3, 5, 8, 13
 def lucas(n):  # 2, 1, 3, 4, 7, 11, 18, 29
     """
     This function gets the lucas series index according to the entered index
-    :n: index
-    :return: int
+        :param n: index
+        :return: int
     """
     if n == 0:
         return 2
@@ -29,10 +29,10 @@ def sum_series(n, idx0=0, idx1=1):  # 2, 1, 3, 4, 7, 11, 18, 29
     """
         This function uses the fibonacci and lucas, but it has custom idx0 and idx0,
         and it returns the index of the series
-        :n: index
-        :idx0: index 0 the start of the series
-        :idx1: index 0 the next in line in the series
-        :return: int
+            :param n: index
+            :param idx0: index 0 the start of the series
+            :param idx1: index 0 the next in line in the series
+            :return: int
     """
     if n == 0:
         return idx0
